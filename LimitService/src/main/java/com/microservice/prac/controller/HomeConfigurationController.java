@@ -11,7 +11,7 @@ import com.microservice.prac.configuration.HomeConfiguration;
 public class HomeConfigurationController {
 
 	@Autowired
-	HomeConfiguration homeConfiguration;
+	private HomeConfiguration homeConfiguration;
 	
 	@GetMapping("/home-deatils")   //http://localhost:8080/planets/distance/eartch/Jupiter
 	public HomeDet getPlanetDetails() {

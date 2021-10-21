@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 import com.microservices.prac.bean.MeasurementConversion;
-import com.microservices.prac.proxt.MeasurementConversionProxy;
+import com.microservices.prac.proxy.MeasurementConversionProxy;
 
 @RestController
 public class MeasurementCalculationController {
